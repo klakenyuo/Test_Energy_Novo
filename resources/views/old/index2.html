@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js" integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+    <script src="https://use.fontawesome.com/1894fe19d0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Energy Novo</title>
+</head>
+<body class="d-flex">
+    <div style="position: fixed !important; overflow-x:hidden !important;" class="col-md-3 fixed-left col-1 d-fle flex-column justify-content-center min-vh-100 bg-white h-25 pt-3 shadow">
+        <!-- logo -->
+        <div class="w-md-100 d-flex justify-content-center">
+            <img class="d-none d-md-block" src="../../public/logo_energy.png" alt="">
+            <img class="d-md-none" src="../../public/icon_energy.png" alt="">
+        </div>
+
+        <!-- user info -->
+        <div class="w-md-100 mt-3 p-3 d-flex px-md-5   " style="background-color:#11D68C;">
+            <img src="../../public/user_logo.png" alt="" width="20%" class="d-none d-md-block">
+            <img src="../../public/user_logo.png" alt="" width="200%" class="d-md-none" >
+            <div class="flex-column text-white px-md-2 d-none d-md-block ">
+                <span class="fs-5 fw-md-bold">Rone Dupuis</span> <br>
+                <span class="-mt-4">Secrétaire - Paris</span>
+            </div>
+        </div>
+        <!-- Menu navigation -->
+        <nav class="w-md-100   mt-3 flex-column side_menu fs-6">
+            <a href="#1"  class="  text-decoration-none text-dark  p-2 d-flex px-md-5 align-items-center  " >
+                <i class="fa fa-home "></i>
+                <span class=" mx-4  ">Tableau de Bord</span> <br>
+            </a>
+            <a href="#"   class=" text-decoration-none text-dark  p-2 d-flex px-md-5 align-items-center  " >
+                <i class="fa fa-wrench "></i>
+                <span class=" mx-4  ">Dossiers Clients</span> <br>
+            </a>
+            <a href="#"  class=" text-decoration-none text-dark  p-2 d-flex px-md-5 align-items-center  " >
+                <i class="fa fa-calendar  "></i>
+                <span class=" mx-4  ">Agenda</span> <br>
+            </a>
+            <a href="#"  class=" text-decoration-none text-dark  p-2 d-flex px-md-5 align-items-center  " >
+                <i class="fa fa-industry  "></i>
+                <span class=" mx-4  ">Rapport d’activité</span> <br>
+            </a>
+            <a href="#"  class=" text-decoration-none text-dark  p-2 d-flex px-md-5 align-items-center  " >
+                <i class="fa fa-bell  "></i>
+                <span class=" mx-4  ">Notifications</span> <br>
+            </a>
+            <a href="#"  class=" text-decoration-none text-dark  p-2 d-flex px-md-5 align-items-center  " >
+                <i class="fa fa-user  "></i>
+                <span class=" mx-4  ">Modifier mon profil</span> <br>
+            </a>
+             
+        </nav>
+        <div class="w-md-100   mt-3  fs-6 mt-5 pt-5    ">
+            <a href="#"  class=" text-decoration-none text-dark  p-2 d-flex px-md-5 align-items-center  " >
+                <img class="d-none d-md-block" src="../../public/signout.png" alt="">
+                <span class=" mx-2  ">Deconnexion</span> <br>
+            </a>
+        </div>
+    </div>
+    <div class="col-md-9 min-vh-100 offset-md-3 flex-column p-md-5 p-3" style="background-color: #EEF9F0 !important   ;background:url('../../public/bg_right.png') right bottom no-repeat,url('../../public/bg_top.png') left top no-repeat, url('../../public/bg_bottom.png') center bottom no-repeat ;" >
+        <div class="d-flex justify-content-between w-md-100">
+            <div class="w-md-50">
+            </div>
+            <div class="d-flex w-50 fs-3 justify-content-between align-items-center text-secondary">
+                <div class="d-flex border-bottom align-items-center p-0">
+                    <input type="text" style="outline: none  !important;" class="search_input form-control bg-transparent border-0" placeholder="Rechercher">
+                    <div class="input-group-append">
+                      <button class=" border-0 bg-transparent" type="button">
+                        <i class="fs-2 fa fa-search text-secondary "></i>
+                      </button>
+                    </div>
+                  </div>
+                <i class="fa fa-bell"></i>
+                <i class="fa fa-comment "></i>
+            </div>
+        </div>
+        <div class="d-flex bg-white shadow mt-5 justify-content-between p-2 px-5">
+            <div class="d-flex align-items-center ">
+                <img class="" width="50px" height="50px" src="../../public/tool.png" alt="">
+                <span class="fs-4 fw-bolder my-3 mx-3">Dossiers clients après installation </span>
+            </div>
+            <span class="fs-4 fw-bolder my-3">16</span>
+        </div>
+        <div class="d-flex bg-white shadow mt-2 p-2 px-5 align-items-center ">
+            <span class=" my-3 mr-3">Période sélectionnée</span>
+            <input  class="mx-3 p-1 border-secondary border text-secondary" type="date" value="2022-09-14">
+            <span class="mx-3" >au</span>
+            <input class="mx-3 p-1 border-secondary border text-secondary"  type="date" value="2022-09-24">
+           <button class="mx-3 btn bg-cred text-white rounded col-2"  type="submit" >voir</button>
+        </div>
+        <div class="d-flex w-100 mt-2 justify-content-between">
+            <div class="d-flex bg-white w-49 justify-content-between shadow   p-2 px-5 align-items-center ">
+                <span class="fs-4 fw-bolder my-3">Chiffre d’affaire </span>
+                <span class="fs-3 fw-bolder my-3">62 345 € </span>
+            </div>
+            <div class="d-flex bg-white w-49 justify-content-between shadow    p-2 px-5 align-items-center ">
+                <span class="fs-4 fw-bolder my-3">Nombre de clients </span>
+                <span class="fs-3 fw-bolder my-3">124 </span>
+            </div>
+        </div>
+        <!-- filtre -->
+        <div class="d-flex w-100 mt-2 bg-white p-2 py-4 shadow  ">
+            <div class="flex-column d-flex mx-2 w-33">
+                <label for="client" class="fs-6 fw-bolder">Nom du client</label>
+                <input type="text" class="mt-2 border-0 border-dark border-bottom py-2" placeholder="Prénom et/ou Nom du client">
+                <span class="mt-2 border-0 border-dark border-bottom py-2 d-flex justify-content-between align-items-center">Statut CEE <i class="fa fa-chevron-down"></i> </span>
+                <span class="mt-2 border-0 border-dark border-bottom py-2 d-flex justify-content-between align-items-center">Pollueur <i class="fa fa-chevron-down"></i></span>
+                <span class="mt-2 border-0 border-dark border-bottom py-2 d-flex justify-content-between align-items-center">Reste a charge <i class="fa fa-chevron-down"></i></span>
+                <span class="mt-2 border-0 border-dark border-bottom py-2 d-flex justify-content-between align-items-center">Beneficiaire prime CEE <i class="fa fa-chevron-down"></i></span>
+            </div>
+            <div class="flex-column d-flex mx-2 w-33">
+                <label for="client" class="fs-6 fw-bolder">Code Postal</label>
+                <input type="text" class="mt-2 border-0 border-dark border-bottom py-2" placeholder="91200">
+                <span class="mt-2 border-0 border-dark border-bottom py-2 d-flex justify-content-between align-items-center">Statut MPR <i class="fa fa-chevron-down"></i></span>
+                <span class="mt-2 border-0 border-dark border-bottom py-2 d-flex justify-content-between align-items-center">Maison de financement <i class="fa fa-chevron-down"></i></span>
+                <span class="mt-2 border-0 border-dark border-bottom py-2 d-flex justify-content-between align-items-center">Periode de Signature <i class="fa fa-chevron-down"></i></span>
+                <span class="mt-2 border-0 border-dark border-bottom py-2 d-flex justify-content-between align-items-center"> Beneficiaire prime MPR<i class="fa fa-chevron-down"></i></span>
+            </div>
+            <div class="flex-column d-flex mx-2 w-33">
+                <label for="client" class="fs-6 fw-bolder">Référence du paiement</label>
+                <input type="text" class="mt-2 border-0 border-dark border-bottom py-2" placeholder="DXS 990">
+                <span class="mt-2 border-0 border-dark border-bottom py-2 d-flex justify-content-between align-items-center">Statut du Client <i class="fa fa-chevron-down"></i></span> 
+                <span class="mt-2 border-0 border-dark border-bottom py-2 d-flex justify-content-between align-items-center">Mode de paiement <i class="fa fa-chevron-down"></i></span> 
+                <span class="mt-2 border-0 border-dark border-bottom py-2 d-flex justify-content-between align-items-center">Installateur <i class="fa fa-chevron-down"></i></span> 
+            </div>
+        </div>
+        <!-- datatable -->
+        <div class="d-flex w-100 mt-2 bg-white px-2 py-4 ">
+            <table class="w-100 border-0" style="font-size: 13px !important;">
+                <thead class="fs-6 font-italic border-secondqry border-bottom">
+                    <th><input type="checkbox" name="" id=""></th>
+                    <th>Date</th>
+                    <th>Nom <br> Prénom</th>
+                    <th>Téléphone</th>
+                    <th>Code postal <br>Ville</th>
+                    <th>Installateur</th>
+                    <th>TTC</th>
+                    <th>Statut</th>
+                    <th>Statut financement</th>
+                    <th>Statut CEE</th>
+                    <th>Statut MPR</th>
+                    <th>Rapport</th>
+                    <th>Notes</th>
+                    <th>Envoyer un mail</th>
+                </thead>
+                <tr>
+                    <td><input type="checkbox" name="" id=""></td>
+                    <td>28/09/22</td>
+                    <td>Dupuis <br> Richard</td>
+                    <td> <i class="fa fa-phone"></i> <br>  06 78 89 88 76</td>
+                    <td>75009<br>Paris</td>
+                    <td>Romain Pouit</td>
+                    <td>10 990,00€ </td>
+                    <td>Prêt pour Installation</td>
+                    <td>Manque pièces</td>
+                    <td>AH non signée</td>
+                    <td>Demande de solde effectuée</td>
+                    <td>Confirmé</td>
+                    <td><i class="fa fa-pencil"></i></td>
+                    <td><i class="fa fa-envelope"></i></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,55 @@
+.side_menu .nav-item a:hover{
+    background-color: #F86E57;
+    color: white ;
+}
+.side_menu .nav-item a{
+    color: black ;
+}
+.side_menu .nav-item a.active{
+    background-color: #F86E57 !important;
+    color: white !important ;
+}
+
+.search_input:focus, input:focus{
+    border: none !important;
+}
+.bg-cblue{
+    background-color: #7C7FF3 !important;
+}
+.bg-cred{
+    background-color: #FA6E57 !important;
+}
+.bg-cgreen{
+    background-color: #0BD88E !important;
+}
+
+.w-49{
+   width: 49%!important ; 
+}
+.w-33{
+    width: 33%!important ; 
+ }
+ .sidebar li .submenu{ 
+	list-style: none; 
+	margin: 0; 
+	padding: 0; 
+	padding-left: 1rem; 
+	padding-right: 1rem;
+}
+
+.submenu li a.active{
+    color: #F86E57 !important;
+    background-color: white !important;
+}
+
+.sub-link:hover{
+    background-color: #0bd88d00 !important;
+    color: #F86E57 !important;
+}
+.sub-link.active{
+    background-color: #0bd88d00 !important;
+    color: #F86E57 !important;
+}
+.data_table tr:nth-child(odd) {
+    background-color: #FEF0EE !important;
+}
