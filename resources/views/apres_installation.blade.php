@@ -69,9 +69,10 @@
             </div>
         </div>
         <!-- datatable -->
-        <div class="d-flex w-100 mt-2 bg-white  py-4 ">
-            <table class="w-100 border-0 text-secondary data_table" style="font-size: 13px !important;">
-                <thead class="px-2 fs-6 font-italic border-secondqry border-bottom">
+        <div class="d-flex w-100 mt-2 bg-white px-2  py-4 ">
+            <table class="w-100 border-0 text-center text-secondary data_table table-reponsive" style="font-size: 13px !important;">
+                <thead class=" fs-6 font-italic border-secondqry border-bottom">
+                <tr>
                     <th><input type="checkbox" name="" id=""></th>
                     <th>Date</th>
                     <th>Nom <br> Prénom</th>
@@ -86,7 +87,9 @@
                     <th>Rapport</th>
                     <th>Notes</th>
                     <th>Envoyer un mail</th>
+                </tr>
                 </thead>
+                <tbody>
                 <tr class="">
                     <td><input type="checkbox" name="" id=""></td>
                     <td>28/09/22</td>
@@ -95,15 +98,117 @@
                     <td>75009<br>Paris</td>
                     <td>Romain Pouit</td>
                     <td>10 990,00€ </td>
-                    <td>Prêt pour Installation</td>
-                    <td>Manque pièces</td>
-                    <td>AH non signée</td>
-                    <td>Demande de solde effectuée</td>
-                    <td>Confirmé</td>
-                    <td><i class="fa fa-pencil"></i></td>
-                    <td><i class="fa fa-envelope"></i></td>
+                    <td class="text-cgreen fw-bold">Prêt pour Installation</td>
+                    <td class="text-cred fw-bold">Manque pièces</td>
+                    <td class="text-cred fw-bold">AH non signée</td>
+                    <td class="text-success fw-bold">Demande de solde effectuée</td>
+                    <td class="text-cgreen fw-bold">Confirmé</td>
+                    <td><i class="fa fa-pencil text-secondary"></i></td>
+                    <td><i class="fa fa-envelope text-secondary"></i></td>
                 </tr> 
+                <tr class="">
+                    <td><input type="checkbox" name="" id=""></td>
+                    <td>28/09/22</td>
+                    <td>Dupuis <br> Richard</td>
+                    <td> <i class="fa fa-phone"></i> <br>  06 78 89 88 76</td>
+                    <td>75009<br>Paris</td>
+                    <td>Romain Pouit</td>
+                    <td>10 990,00€ </td>
+                    <td class="text-cblue fw-bold">Fin de traitement</td>
+                    <td class="text-cgreen fw-bold">Virement effectué</td>
+                    <td class="text-blue fw-bold">Dépôt validé</td>
+                    <td class="text-cgreen fw-bold">Solde accepté</td>
+                    <td class="text-cgreen fw-bold">Confirmé</td>
+                    <td><i class="fa fa-pencil text-secondary"></i></td>
+                    <td ><i class="fa fa-envelope text-secondary"></i></td>
+                </tr> 
+                <tr class="">
+                    <td><input type="checkbox" name="" id=""></td>
+                    <td>28/09/22</td>
+                    <td>Dupuis <br> Richard</td>
+                    <td> <i class="fa fa-phone"></i> <br>  06 78 89 88 76</td>
+                    <td>75009<br>Paris</td>
+                    <td>Romain Pouit</td>
+                    <td>10 990,00€ </td>
+                    <td class="text-blue fw-bold">Traitment en cours</td>
+                    <td class="text-info fw-bold">Attente déblocage de fonds</td>
+                    <td class="text-danger fw-bold">Dépôt prêt</td>
+                    <td class="text-cred fw-bold">Attente validation</td>
+                    <td class="text-cgreen fw-bold">Confirmé</td>
+                    <td><i class="fa fa-pencil text-secondary"></i></td>
+                    <td ><i class="fa fa-envelope text-secondary"></i></td>
+                </tr>
+                <tr class="">
+                    <td><input type="checkbox" name="" id=""></td>
+                    <td>28/09/22</td>
+                    <td>Dupuis <br> Richard</td>
+                    <td> <i class="fa fa-phone"></i> <br>  06 78 89 88 76</td>
+                    <td>75009<br>Paris</td>
+                    <td>Romain Pouit</td>
+                    <td>10 990,00€ </td>
+                    <td class="text-cgreen fw-bold">Prêt pour Installation</td>
+                    <td class="text-cred fw-bold">Manque pièces</td>
+                    <td class="text-cred fw-bold">AH non signée</td>
+                    <td class="text-success fw-bold">Demande de solde effectuée</td>
+                    <td class="text-cgreen fw-bold">Confirmé</td>
+                    <td><i class="fa fa-pencil text-secondary"></i></td>
+                    <td><i class="fa fa-envelope text-secondary"></i></td>
+                </tr> 
+                <tr class="">
+                    <td><input type="checkbox" name="" id=""></td>
+                    <td>28/09/22</td>
+                    <td>Dupuis <br> Richard</td>
+                    <td> <i class="fa fa-phone"></i> <br>  06 78 89 88 76</td>
+                    <td>75009<br>Paris</td>
+                    <td>Romain Pouit</td>
+                    <td>10 990,00€ </td>
+                    <td class="text-cblue fw-bold">Fin de traitement</td>
+                    <td class="text-cgreen fw-bold">Virement effectué</td>
+                    <td class="text-blue fw-bold">Dépôt validé</td>
+                    <td class="text-cgreen fw-bold">Solde accepté</td>
+                    <td class="text-cgreen fw-bold">Confirmé</td>
+                    <td><i class="fa fa-pencil text-secondary"></i></td>
+                    <td ><i class="fa fa-envelope text-secondary"></i></td>
+                </tr> 
+                <tr class="">
+                    <td><input type="checkbox" name="" id=""></td>
+                    <td>28/09/22</td>
+                    <td>Dupuis <br> Richard</td>
+                    <td> <i class="fa fa-phone"></i> <br>  06 78 89 88 76</td>
+                    <td>75009<br>Paris</td>
+                    <td>Romain Pouit</td>
+                    <td>10 990,00€ </td>
+                    <td class="text-blue fw-bold">Traitment en cours</td>
+                    <td class="text-info fw-bold">Attente déblocage de fonds</td>
+                    <td class="text-danger fw-bold">Dépôt prêt</td>
+                    <td class="text-cred fw-bold">Attente validation</td>
+                    <td class="text-cgreen fw-bold">Confirmé</td>
+                    <td><i class="fa fa-pencil text-secondary"></i></td>
+                    <td ><i class="fa fa-envelope text-secondary"></i></td>
+                </tr> 
+                <tr class="">
+                    <td><input type="checkbox" name="" id=""></td>
+                    <td>28/09/22</td>
+                    <td>Dupuis <br> Richard</td>
+                    <td> <i class="fa fa-phone"></i> <br>  06 78 89 88 76</td>
+                    <td>75009<br>Paris</td>
+                    <td>Romain Pouit</td>
+                    <td>10 990,00€ </td>
+                    <td class="text-cblue fw-bold">Fin de traitement</td>
+                    <td class="text-cgreen fw-bold">Virement effectué</td>
+                    <td class="text-blue fw-bold">Dépôt validé</td>
+                    <td class="text-cgreen fw-bold">Solde accepté</td>
+                    <td class="text-cgreen fw-bold">Confirmé</td>
+                    <td><i class="fa fa-pencil text-secondary"></i></td>
+                    <td ><i class="fa fa-envelope text-secondary"></i></td>
+                </tr> 
+                </tbody>
             </table>
+        </div>
+        {{-- paginate --}}
+        <div class="d-flex mt-3 align-items-center">
+            <span class="fs-6 text-dark bg-white p-2">Page suivante</span>
+            <button class="p-1 px-2 text-center bg-cred text-white mx-2 fs-6 border-0"><i class="fa fa-chevron-right"></i></button>
         </div>
     </div> 
 @endsection

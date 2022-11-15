@@ -23,6 +23,19 @@
     background-color: #0BD88E !important;
 }
 
+.text-cgreen{
+    color: #0BD88E !important;
+}
+.text-cred{
+    color: #FA6E57 !important;
+}
+.text-cblue{
+    color: #7C7FF3 !important;
+}
+.text-blue{
+    color: #484ef8 !important;
+}
+
 .w-49{
    width: 49%!important ; 
 }
@@ -50,6 +63,8 @@
     background-color: #0bd88d00 !important;
     color: #F86E57 !important;
 }
-.data_table tr:nth-child(odd) {
+.data_table tr:nth-child(even) {
     background-color: #FEF0EE !important;
 }
+ 
+ 
